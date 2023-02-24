@@ -1,14 +1,12 @@
 import React from "react";
 
-function EnterForm({ onSubmit }) {
+function EnterForm({ onSubmit, isDisabled }) {
   const [tentativeGuess, setTentativeGuess] = React.useState("");
 
   const handleSumbit = (event) => {
     event.preventDefault();
 
     onSubmit(tentativeGuess);
-
-    console.log({ guess: tentativeGuess });
 
     setTentativeGuess("");
   };
@@ -25,6 +23,7 @@ function EnterForm({ onSubmit }) {
         maxLength={5}
         title="5 letter word"
         required
+        disabled={isDisabled}
         onChange={(event) => {
           setTentativeGuess(event.target.value.toUpperCase());
         }}
