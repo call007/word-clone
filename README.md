@@ -15,6 +15,6 @@ https://call007.github.io/word-clone/
 
 There are 3 possible statuses:
 
-- ![Green color](docs/green.png) **correct** — this slot is perfect. It's the right letter in the right place.
-- ![Olive color](docs/olive.png) **misplaced** — this letter does exist in the word, but in a different slot.
-- ![Gray color](docs/gray.png) **incorrect** — this letter is not found in the word at all.
+- <img src="docs/green.png" width="14" height="14" alt="Green color"> **correct** — this slot is perfect. It's the right letter in the right place.
+- <img src="docs/olive.png" width="14" height="14" alt="Olive color"> **misplaced** — this letter does exist in the word, but in a different slot.
+- <img src="docs/gray.png" width="14" height="14" alt="Gray color"> **incorrect** — this letter is not found in the word at all.
