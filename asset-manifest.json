@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/word-clone/static/css/main.3097a57f.css",
+    "main.js": "/word-clone/static/js/main.54bd6d3f.js",
+    "index.html": "/word-clone/index.html",
+    "main.3097a57f.css.map": "/word-clone/static/css/main.3097a57f.css.map",
+    "main.54bd6d3f.js.map": "/word-clone/static/js/main.54bd6d3f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3097a57f.css",
+    "static/js/main.54bd6d3f.js"
+  ]
+}
