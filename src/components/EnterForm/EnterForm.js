@@ -7,7 +7,10 @@ import Keyboard from "../Keyboard";
 
 function EnterForm({ onSubmit, isDisabled, keysStatus }) {
   const [tentativeGuess, setTentativeGuess] = React.useState("");
-  const [play] = useSound(pickSfx);
+  const [play] = useSound(pickSfx, {
+    interrupt: true,
+    volume: 0.7,
+  });
 
   const handleSumbit = (event) => {
     event.preventDefault();

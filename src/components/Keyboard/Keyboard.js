@@ -5,7 +5,10 @@ import pickSfx from "../../sounds/pick.mp3";
 import { keyboardKeys } from "../../constants";
 
 function Key({ status, onClick, children }) {
-  const [play] = useSound(pickSfx);
+  const [play] = useSound(pickSfx, {
+    interrupt: true,
+    volume: 0.7,
+  });
 
   const handleClick = (event) => {
     onClick(event.target.innerText);
