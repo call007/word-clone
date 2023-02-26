@@ -1,5 +1,7 @@
 # Word Game
 
+This is a clone of popular word game [Wordle](https://www.nytimes.com/games/wordle/index.html)
+
 ## Demo
 
 https://call007.github.io/word-clone/
