@@ -1,9 +1,13 @@
 import React from "react";
+import useSound from "use-sound";
+
+import pickSfx from "../../sounds/pick.mp3";
 
 import Keyboard from "../Keyboard";
 
 function EnterForm({ onSubmit, isDisabled, keysStatus }) {
   const [tentativeGuess, setTentativeGuess] = React.useState("");
+  const [play] = useSound(pickSfx);
 
   const handleSumbit = (event) => {
     event.preventDefault();
@@ -41,6 +45,7 @@ function EnterForm({ onSubmit, isDisabled, keysStatus }) {
           <button
             className="guess-submit-button"
             type="submit"
+            onMouseUp={play}
             aria-label="Submit"
           >
             <span aria-hidden="true">↵</span>

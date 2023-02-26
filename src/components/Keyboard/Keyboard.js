@@ -1,10 +1,15 @@
 import React from "react";
+import useSound from "use-sound";
 
+import pickSfx from "../../sounds/pick.mp3";
 import { keyboardKeys } from "../../constants";
 
 function Key({ status, onClick, children }) {
+  const [play] = useSound(pickSfx);
+
   const handleClick = (event) => {
     onClick(event.target.innerText);
+    play();
   };
 
   return (
