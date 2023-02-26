@@ -15,6 +15,6 @@ https://call007.github.io/word-clone/
 
 There are 3 possible statuses:
 
-- <b style="padding: 2px 5px; color: #fff; background-color: hsl(150deg 70% 30%);">correct</b> — this slot is perfect. It's the right letter in the right place.
-- <b style="padding: 2px 5px; color: #fff; background-color: hsl(50deg 100% 30%);">misplaced</b> — this letter does exist in the word, but in a different slot.
-- <b style="padding: 2px 5px; color: #fff; background-color: hsl(0deg 0% 25%);">incorrect</b> — this letter is not found in the word at all.
+- ![Green color](docs/green.png) **correct** — this slot is perfect. It's the right letter in the right place.
+- ![Olive color](docs/olive.png) **misplaced** — this letter does exist in the word, but in a different slot.
+- ![Gray color](docs/gray.png) **incorrect** — this letter is not found in the word at all.
