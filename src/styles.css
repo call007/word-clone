@@ -227,7 +227,7 @@ h1 {
 }
 
 .guess-submit-button:hover {
-  color: var(--color-gray-300);
+  color: var(--color-success);
 }
 
 .banner {
