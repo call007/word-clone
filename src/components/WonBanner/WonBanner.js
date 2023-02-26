@@ -1,8 +1,9 @@
 import React from "react";
 
 import Banner from "../Banner";
+import RestartButton from "../RestartButton";
 
-function WonBanner({ numberOfAttempts }) {
+function WonBanner({ numberOfAttempts, handleRestartButtonClick }) {
   return (
     <Banner>
       <p>
@@ -12,6 +13,8 @@ function WonBanner({ numberOfAttempts }) {
         </strong>
         .
       </p>
+
+      <RestartButton onClick={handleRestartButtonClick} />
     </Banner>
   );
 }
