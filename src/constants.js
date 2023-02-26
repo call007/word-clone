@@ -5,3 +5,8 @@ export const keyboardKeys = [
   ["A", "S", "D", "F", "G", "H", "J", "K", "L"],
   ["Z", "X", "C", "V", "B", "N", "M"],
 ];
+
+export const pickSfxOptions = {
+  interrupt: true,
+  volume: 0.7,
+};

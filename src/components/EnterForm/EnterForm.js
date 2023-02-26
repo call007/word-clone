@@ -2,15 +2,13 @@ import React from "react";
 import useSound from "use-sound";
 
 import pickSfx from "../../sounds/pick.mp3";
+import { pickSfxOptions } from "../../constants";
 
 import Keyboard from "../Keyboard";
 
 function EnterForm({ onSubmit, isDisabled, keysStatus }) {
   const [tentativeGuess, setTentativeGuess] = React.useState("");
-  const [play] = useSound(pickSfx, {
-    interrupt: true,
-    volume: 0.7,
-  });
+  const [play] = useSound(pickSfx, pickSfxOptions);
 
   const handleSumbit = (event) => {
     event.preventDefault();
