@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "author": "Ed Shevtsov <call007.ed@gmail.com>",
+  "homepage": "https://call007.github.io/word-clone/",
   "dependencies": {
     "new-component": "^4.0.0",
     "prettier": "^2.8.4",
@@ -40,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "husky": "^8.0.3"
   }
 }
