@@ -2,9 +2,9 @@
 
 This is a clone of popular word game [Wordle](https://www.nytimes.com/games/wordle/index.html)
 
-## Demo
+## Preview
 
-https://call007.github.io/word-clone/
+Demo: https://call007.github.io/word-clone/
 
 <img src="docs/demo.gif" width="676" height="856" alt="Demo showing the finished product, the Wordle clone">
 
