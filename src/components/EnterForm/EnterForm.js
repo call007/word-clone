@@ -13,7 +13,7 @@ function EnterForm({ onSubmit, isDisabled, keysStatus }) {
   const handleSumbit = (event) => {
     event.preventDefault();
 
-    onSubmit(tentativeGuess);
+    onSubmit(tentativeGuess.toUpperCase());
 
     setTentativeGuess("");
   };
@@ -40,7 +40,7 @@ function EnterForm({ onSubmit, isDisabled, keysStatus }) {
             required
             disabled={isDisabled}
             onChange={(event) => {
-              setTentativeGuess(event.target.value.toUpperCase());
+              setTentativeGuess(event.target.value);
             }}
           />
           <button
