@@ -21,4 +21,4 @@ function Guess({ value, answer }) {
   );
 }
 
-export default Guess;
+export default React.memo(Guess);
