@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/word-clone/static/css/main.cd562973.css",
-    "main.js": "/word-clone/static/js/main.f6bd387f.js",
+    "main.js": "/word-clone/static/js/main.1fea3ff6.js",
     "static/js/845.f1f7da4f.chunk.js": "/word-clone/static/js/845.f1f7da4f.chunk.js",
     "static/media/pick.mp3": "/word-clone/static/media/pick.e9b29305494afaa2cbb6.mp3",
     "index.html": "/word-clone/index.html",
     "main.cd562973.css.map": "/word-clone/static/css/main.cd562973.css.map",
-    "main.f6bd387f.js.map": "/word-clone/static/js/main.f6bd387f.js.map",
+    "main.1fea3ff6.js.map": "/word-clone/static/js/main.1fea3ff6.js.map",
     "845.f1f7da4f.chunk.js.map": "/word-clone/static/js/845.f1f7da4f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd562973.css",
-    "static/js/main.f6bd387f.js"
+    "static/js/main.1fea3ff6.js"
   ]
 }
